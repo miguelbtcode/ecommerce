@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce - Home</title>
+    <link rel="stylesheet" href="Css/normalize.css">
     <link rel="stylesheet" href="Css/app.css">
 </head>
 <body>
     <header>
-        <h1>Tienda <span>Muebles</span></h1>
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
     </header>
 
-    <nav id="navegacion">
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="Contacto">Contacto</a>
-    </nav>
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="Contacto">Contacto</a>
+        </nav>
+    </div>
+    
+
+    <div class="hero">
+
+    </div>
 
     <section>
         <h2>Categorías de Producto</h2>
@@ -36,7 +44,14 @@
         </div>
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt esse aut, ad nihil laudantium ex accusamus quos officiis quo totam itaque architecto ullam, pariatur facere officia id! Suscipit, pariatur necessitatibus.</p>
+        </div>
+    </section>
+
+    <section class="sobre-empresa">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt esse aut, ad nihil laudantium ex accusamus quos officiis quo totam itaque architecto ullam, pariatur facere officia id! Suscipit, pariatur necessitatibus.</p>
@@ -111,7 +126,7 @@
     <footer>
         <div>
             <h3>Categorias</h3>
-            <nav id="navegacion">
+            <nav class="navegacion">
                 <a href="#">Cocina</a>
                 <a href="#">Oficina</a>
                 <a href="#">Jardin</a>

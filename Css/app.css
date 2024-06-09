@@ -1,19 +1,44 @@
-h1 {
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+a {
+    text-decoration: none;
     color: #000;
 }
 
-h1 span{
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-inline: auto; new property*/
+}
+
+/* Header y navegacion */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nombre-sitio span {
     color: #037bc0;
 }
 
-nav a {
-    text-transform: uppercase;
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
 }
 
-.navegacion a {
-    text-transform: lowercase;
+.nav-principal {
+    padding: 20px 0;
+    text-align: center;
 }
 
-#navegacion a {
-    text-transform: capitalize;
+.hero {
+    background-image: url('../Img/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }

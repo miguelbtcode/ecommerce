@@ -1,0 +1,19 @@
+h1 {
+    color: #000;
+}
+
+h1 span{
+    color: #037bc0;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+.navegacion a {
+    text-transform: lowercase;
+}
+
+#navegacion a {
+    text-transform: capitalize;
+}
